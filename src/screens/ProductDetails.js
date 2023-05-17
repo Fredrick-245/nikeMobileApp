@@ -23,6 +23,8 @@ const ProductDetailsScreen = ({ route }) => {
     dispatch(cartSlice.actions.addCartItem({product:product}))
   }
   console.log('Hey')
+  console.log('Hey')
+  console.log('Hey')
   return (
     <View>
       <ScrollView>
